@@ -59,10 +59,10 @@ public class MouseInfo3_1 extends JFrame implements KeyListener{
     
     final static JTextField textField1=new JTextField();//注释
     
-//    public static void main(String[] args) {
-//        coordinate();
-//        
-//    }
+    public static void main(String[] args) {
+        coordinate();
+        
+    }
 
 	/**
 	 * 运行坐标工具

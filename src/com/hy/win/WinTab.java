@@ -27,6 +27,10 @@ public class WinTab{
 		}
 	}
 
+	public static void main(String[] args) {
+		go();
+	}
+	
 	public static String[] io(String filePath) {
 		String t = FileIO.readTxtFile(path+filePath);
 		return t.split(";");

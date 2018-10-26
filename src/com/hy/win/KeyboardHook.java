@@ -46,6 +46,7 @@ public class KeyboardHook implements Runnable{
 					System.exit(0);
 					break;
 				case 112: //F1开启脚本
+					WinTab.go();
 					setAgainFlag(true);
 					setIfYesFlag(true);
 					Zero.go(isAgainFlag(),isIfYesFlag());
